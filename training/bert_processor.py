@@ -13,7 +13,7 @@ def classify_with_bert(log_message):
     
     return predicted_label
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
     logs = [
         "alpha.osapi_compute.wsgi.server - 12.10.11.1 - API returned 404 not found error",
         "GET /v2/3454/servers/detail HTTP/1.1 RCODE   404 len: 1583 time: 0.1878400",
