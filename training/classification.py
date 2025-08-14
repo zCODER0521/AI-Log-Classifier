@@ -27,5 +27,6 @@ if __name__ == "__main__":
         ("LegacyCRM", "Case escalation for ticket ID 7324 failed because the assigned support agent is no longer active."),
         ("LegacyCRM", "Invoice generation process aborted for order ID 8910 due to invalid tax calculation module."),
     ]
+    
     for log in logs:
         print(classify_with_regex(log)) 
