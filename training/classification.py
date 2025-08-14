@@ -1,4 +1,6 @@
 from regex_processor import classify_with_regex
+from bert_processor import classify_with_bert   
+from llm_processor import classify_with_llm
 
 def classify(logs):
     labels=[]
@@ -9,17 +11,17 @@ def classify(logs):
 
 def classify_logs(source,log_message):
     if source=="LegacyCRM":
-        pass
+        label = classify_with_llm(log_message)
     else:
         label = classify_with_regex(log_message)
         if label is None:
-           pass  
+           label = classify_with_bert(log_message)
     return label
  
 if __name__ == "__main__":
     logs = [
         ("ModernCRM", "IP 192.168.133.114 blocked due to potential attack"),
-        ("BillingSystem", "User 12345 logged in."),
+        ("BillingSystem", "User User 12345 logged in."),
         ("AnalyticsEngine", "File data_6957.csv uploaded successfully by user User265."),
         ("AnalyticsEngine", "Backup completed successfully."),
         ("ModernHR", "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1 RCODE  200 len: 1583 time: 0.1878400"),
@@ -28,5 +30,5 @@ if __name__ == "__main__":
         ("LegacyCRM", "Invoice generation process aborted for order ID 8910 due to invalid tax calculation module."),
     ]
     
-    for log in logs:
-        print(classify_with_regex(log)) 
+    classifications = classify(logs) 
+    print(classifications)  
