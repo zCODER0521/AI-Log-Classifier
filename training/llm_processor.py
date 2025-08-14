@@ -9,7 +9,7 @@ def classify_with_llm(log_msg):
     (1) Workflow Error, (2) Deprecation Warning.
     If you can't figure out a category, use "Unclassified".
     Only return the category name.No preamble.
-    Log message: {log_msg}'''
+    Log message: {log_msg}'''                
 
     chat_completion=groq.chat.completions.create(
     model="llama-3.3-70b-versatile",
