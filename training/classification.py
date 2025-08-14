@@ -1,10 +1,20 @@
 from regex_processor import classify_with_regex
 
-def classify_logs(log_message):
-    label = classify_with_regex(log_message)
-    if label is None:
-       return "Unknown"
- 
+def classify(logs):
+    labels=[]
+    for source, log_message in logs:
+        label=classify_logs(source, log_message)
+        labels.append(label) 
+    return labels
+
+def classify_logs(source,log_message):
+    if source=="LegacyCRM":
+        pass
+    else:
+        label = classify_with_regex(log_message)
+        if label is None:
+           pass  
+    return label
  
 if __name__ == "__main__":
     logs = [
