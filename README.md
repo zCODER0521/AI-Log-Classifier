@@ -52,3 +52,8 @@ training/
 git clone https://github.com/zCODER0521/AI-Log-Classifier.git
 cd AI-Log-Classifier
 ```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
