@@ -120,3 +120,12 @@ The trained model achieves excellent classification performance:
 - **Precision**: 0.99 (macro avg)
 - **Recall**: 0.99 (macro avg)
 - **F1-Score**: 0.99 (macro avg)
+
+## 🔧 Technical Details
+
+### Classification Pipeline
+
+1. **Regex Classification**: Fast pattern-based classification for common log types
+2. **BERT Embeddings**: Semantic understanding using sentence-transformers
+3. **Clustering**: DBSCAN clustering for pattern discovery
+4. **Machine Learning**: Logistic Regression on filtered embeddings
