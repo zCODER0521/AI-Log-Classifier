@@ -82,3 +82,7 @@ The API will be available at `http://localhost:8000`
 **POST `/classify/`**
 
 Upload a CSV file with log data for classification.
+
+**Required CSV format:**
+- `source`: Log source system
+- `log_message`: The actual log message to classify
