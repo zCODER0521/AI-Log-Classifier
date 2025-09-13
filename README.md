@@ -111,3 +111,12 @@ Explore the complete training process and analysis in [`training/training.ipynb`
 - Regex pattern classification
 - Model training and evaluation
 - Performance metrics and validation
+
+## 📈 Model Performance
+
+The trained model achieves excellent classification performance:
+
+- **Accuracy**: 99%
+- **Precision**: 0.99 (macro avg)
+- **Recall**: 0.99 (macro avg)
+- **F1-Score**: 0.99 (macro avg)
