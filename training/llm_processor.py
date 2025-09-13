@@ -3,7 +3,7 @@ from groq import Groq
 load_dotenv() 
 
 groq=Groq()
-def classify_with_llm(log_msg):
+def classify_with_llm(log_msg): 
     
     prompt = f'''Classify the log message into one of these categories: 
     (1) Workflow Error, (2) Deprecation Warning.
