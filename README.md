@@ -100,3 +100,14 @@ curl -X POST "http://localhost:8000/classify/" \
 
 **Response:**
 Returns a CSV file with the original data plus a `target_label` column containing the classification results.
+
+### Training Notebook
+
+Explore the complete training process and analysis in [`training/training.ipynb`](training/training.ipynb):
+
+- Data exploration and visualization
+- DBSCAN clustering analysis
+- BERT embedding generation
+- Regex pattern classification
+- Model training and evaluation
+- Performance metrics and validation
