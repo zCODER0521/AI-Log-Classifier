@@ -95,3 +95,6 @@ curl -X POST "http://localhost:8000/classify/" \
      -H "Content-Type: multipart/form-data" \
      -F "file=@your_logs.csv"
 ```
+
+![Postman Response](Screenshots/Postman%20response.png)
+
