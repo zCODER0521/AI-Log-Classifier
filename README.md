@@ -57,3 +57,9 @@ cd AI-Log-Classifier
 ```bash
 pip install -r requirements.txt
 ```
+
+3. **Set up environment variables**
+```bash
+# Create .env file (ensure it's in .gitignore)
+GROQ_API_KEY=your_groq_api_key_here
+```
