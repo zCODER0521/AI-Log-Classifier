@@ -129,3 +129,10 @@ The trained model achieves excellent classification performance:
 2. **BERT Embeddings**: Semantic understanding using sentence-transformers
 3. **Clustering**: DBSCAN clustering for pattern discovery
 4. **Machine Learning**: Logistic Regression on filtered embeddings
+
+### Key Components
+
+- **BERT Model**: `all-MiniLM-L6-v2` for generating sentence embeddings
+- **Clustering**: DBSCAN with eps=0.5, min_samples=5
+- **Classification**: LogisticRegression with max_iter=1000
+- **Model Storage**: Joblib serialization in [`models/log_classifier.joblib`](models/log_classifier.joblib)
