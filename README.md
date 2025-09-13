@@ -45,3 +45,10 @@ training/
 └── dataset/
     └── synthetic_logs.csv # Training dataset
 ```
+## 🛠️ Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/zCODER0521/AI-Log-Classifier.git
+cd AI-Log-Classifier
+```
