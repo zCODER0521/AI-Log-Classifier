@@ -29,3 +29,19 @@ An intelligent log classification system that automatically categorizes log mess
 - **User Action**: User activities (login/logout, account creation)
 - **Workflow Error**: Process and workflow-related issues
 - **Deprecation Warning**: Legacy system warnings
+
+---
+
+## 🏗️ Architecture
+
+```
+training/
+├── bert_processor.py      # BERT-based classification
+├── classification.py      # Main classification logic
+├── llm_processor.py       # LLM integration
+├── regex_processor.py     # Pattern-based classification
+├── server.py             # FastAPI server
+├── training.ipynb        # Model training and analysis
+└── dataset/
+    └── synthetic_logs.csv # Training dataset
+```
