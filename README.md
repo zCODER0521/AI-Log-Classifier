@@ -168,3 +168,12 @@ AI-Log-Classifier/
 - API endpoints include proper error handling and validation
 - File upload restrictions ensure only CSV files are processed
 
+## 📝 Example Log Classifications
+
+| Log Message | Source | Classification |
+|-------------|--------|---------------|
+| `User User123 logged in.` | ModernHR | User Action |
+| `Failed to replicate data for shard 5` | AnalyticsEngine | Error |
+| `Backup completed successfully.` | BillingSystem | System Notification |
+| `Multiple incorrect login attempts` | ModernCRM | Security Alert |
+| `System updated to version 3.9.1` | ThirdPartyAPI | System Notification |
