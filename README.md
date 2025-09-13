@@ -177,3 +177,24 @@ AI-Log-Classifier/
 | `Backup completed successfully.` | BillingSystem | System Notification |
 | `Multiple incorrect login attempts` | ModernCRM | Security Alert |
 | `System updated to version 3.9.1` | ThirdPartyAPI | System Notification |
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🔗 Links
+
+- **Repository**: [https://github.com/zCODER0521/AI-Log-Classifier](https://github.com/zCODER0521/AI-Log-Classifier)
+- **API Documentation**: `http://localhost:8000/docs` (when server is running)
+
+---
+
+**Built with ❤️ using FastAPI, BERT, and scikit-learn**
