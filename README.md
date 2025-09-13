@@ -63,3 +63,14 @@ pip install -r requirements.txt
 # Create .env file (ensure it's in .gitignore)
 GROQ_API_KEY=your_groq_api_key_here
 ```
+
+## 🚀 Usage
+
+### API Server
+
+Start the FastAPI server:
+
+```bash
+cd training
+python server.py
+```
