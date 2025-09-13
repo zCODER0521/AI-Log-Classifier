@@ -17,3 +17,15 @@ An intelligent log classification system that automatically categorizes log mess
 - **Scalable Architecture**: Modular design with separate processors for different classification methods
 
 ---
+
+## 📊 Supported Log Categories
+
+- **HTTP Status**: Web server status codes and responses
+- **Critical Error**: System-critical failures requiring immediate attention
+- **Security Alert**: Authentication and authorization issues
+- **Error**: General application errors (data replication, shard failures)
+- **System Notification**: Routine system events (backups, updates, reboots)
+- **Resource Usage**: System resource monitoring and alerts
+- **User Action**: User activities (login/logout, account creation)
+- **Workflow Error**: Process and workflow-related issues
+- **Deprecation Warning**: Legacy system warnings
