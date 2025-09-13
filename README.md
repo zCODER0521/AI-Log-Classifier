@@ -136,3 +136,28 @@ The trained model achieves excellent classification performance:
 - **Clustering**: DBSCAN with eps=0.5, min_samples=5
 - **Classification**: LogisticRegression with max_iter=1000
 - **Model Storage**: Joblib serialization in [`models/log_classifier.joblib`](models/log_classifier.joblib)
+
+## 📁 Project Structure
+
+```
+AI-Log-Classifier/
+├── .env                          # Environment variables (not in repo)
+├── .gitignore                    # Git ignore rules
+├── models/
+│   └── log_classifier.joblib     # Trained model
+├── Resources/
+│   ├── output.csv               # Classification results
+│   └── test.csv                 # Test data
+├── Screenshots/
+│   ├── Classification result.png
+│   └── Postman response.png
+└── training/
+    ├── bert_processor.py
+    ├── classification.py
+    ├── llm_processor.py
+    ├── regex_processor.py
+    ├── server.py
+    ├── training.ipynb
+    └── dataset/
+        └── synthetic_logs.csv
+```
