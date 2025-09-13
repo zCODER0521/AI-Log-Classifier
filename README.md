@@ -86,3 +86,12 @@ Upload a CSV file with log data for classification.
 **Required CSV format:**
 - `source`: Log source system
 - `log_message`: The actual log message to classify
+
+
+**Example using curl:**
+```bash
+curl -X POST "http://localhost:8000/classify/" \
+     -H "accept: application/json" \
+     -H "Content-Type: multipart/form-data" \
+     -F "file=@your_logs.csv"
+```
