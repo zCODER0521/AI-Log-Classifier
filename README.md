@@ -74,3 +74,11 @@ Start the FastAPI server:
 cd training
 python server.py
 ```
+
+The API will be available at `http://localhost:8000`
+
+### API Endpoint
+
+**POST `/classify/`**
+
+Upload a CSV file with log data for classification.
