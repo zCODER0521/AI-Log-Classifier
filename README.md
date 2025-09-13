@@ -98,3 +98,5 @@ curl -X POST "http://localhost:8000/classify/" \
 
 ![Postman Response](Screenshots/Postman%20response.png)
 
+**Response:**
+Returns a CSV file with the original data plus a `target_label` column containing the classification results.
