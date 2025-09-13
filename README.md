@@ -161,3 +161,10 @@ AI-Log-Classifier/
     └── dataset/
         └── synthetic_logs.csv
 ```
+
+## 🔒 Security
+
+- Environment variables are properly configured in `.env` (excluded from repository)
+- API endpoints include proper error handling and validation
+- File upload restrictions ensure only CSV files are processed
+
